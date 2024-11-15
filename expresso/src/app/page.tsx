@@ -18,9 +18,12 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-br from-indigo-100 via-purple-100 to-pink-100">
       <header className="fixed w-full z-10 p-4 bg-white bg-opacity-80 backdrop-blur-lg shadow-sm">
         <nav className="container mx-auto flex justify-between items-center">
-          <Link href="/dashboard/process" className="text-3xl font-extrabold text-indigo-600">expresso</Link>
+        <Link href="/" className="text-3xl font-extrabold text-indigo-600">expresso</Link>
+
           <div className="space-x-6">
-            <Link href="/quiz" className="text-2xl text-gray-600 hover:text-indigo-600 transition-colors">chose</Link>
+          <Link href="/mainquiz" className="text-2xl text-gray-600 hover:text-indigo-600 transition-colors">
+          Quiz
+      </Link>
             <Link href="/frs" className="text-2xl text-gray-600 hover:text-indigo-600 transition-colors">show</Link>
           </div>
         </nav>
