@@ -6,14 +6,14 @@ First,  copy the repository and install the dependencies:
 
 ```bash
 git clone https://github.com/akylz/expresso
-#then
+# then
 npm i
 ```
 Run the project
 
 ```bash
 cd expresso
-#then
+# then
 npm run dev
 # or
 yarn dev
