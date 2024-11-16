@@ -12,7 +12,7 @@ npm i
 Run the project
 
 ```bash
-#cd expresso
+cd expresso
 #then
 npm run dev
 # or
